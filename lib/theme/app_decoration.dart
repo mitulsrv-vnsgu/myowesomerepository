@@ -98,6 +98,9 @@ class AppDecoration {
           ),
         ),
       );
+  static BoxDecoration get fillDeeppurpleA200 => BoxDecoration(
+        color: ColorConstant.deepPurpleA200,
+      );
   static BoxDecoration get outlineBlack9000c => BoxDecoration(
         color: ColorConstant.whiteA700,
         boxShadow: [

@@ -201,8 +201,8 @@ class ChatsOnePage extends StatelessWidget {
                                           "lbl_charlotte".tr,
                                           overflow: TextOverflow.ellipsis,
                                           textAlign: TextAlign.left,
-                                          style: AppStyle
-                                              .txtGeneralSansSemibold18Gray900,
+                                          style:
+                                              AppStyle.txtGeneralSansSemibold18,
                                         ),
                                         Padding(
                                           padding: getPadding(

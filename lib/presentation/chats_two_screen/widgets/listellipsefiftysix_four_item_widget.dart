@@ -76,7 +76,7 @@ class ListellipsefiftysixFourItemWidget extends StatelessWidget {
                       "lbl_jenny_wilson".tr,
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.left,
-                      style: AppStyle.txtGeneralSansSemibold18Gray9002,
+                      style: AppStyle.txtGeneralSansSemibold18Gray9001,
                     ),
                     Padding(
                       padding: getPadding(

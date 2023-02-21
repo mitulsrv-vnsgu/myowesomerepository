@@ -10,8 +10,6 @@ import 'package:unformatted_code_test/presentation/signup_question_one_screen/si
 import 'package:unformatted_code_test/presentation/signup_question_one_screen/binding/signup_question_one_binding.dart';
 import 'package:unformatted_code_test/presentation/signup_question_two_screen/signup_question_two_screen.dart';
 import 'package:unformatted_code_test/presentation/signup_question_two_screen/binding/signup_question_two_binding.dart';
-import 'package:unformatted_code_test/presentation/signup_question_three_screen/signup_question_three_screen.dart';
-import 'package:unformatted_code_test/presentation/signup_question_three_screen/binding/signup_question_three_binding.dart';
 import 'package:unformatted_code_test/presentation/home_container_screen/home_container_screen.dart';
 import 'package:unformatted_code_test/presentation/home_container_screen/binding/home_container_binding.dart';
 import 'package:unformatted_code_test/presentation/profile_details_one_screen/profile_details_one_screen.dart';
@@ -134,9 +132,6 @@ class AppRoutes {
   static const String signupQuestionOneScreen = '/signup_question_one_screen';
 
   static const String signupQuestionTwoScreen = '/signup_question_two_screen';
-
-  static const String signupQuestionThreeScreen =
-      '/signup_question_three_screen';
 
   static const String homePage = '/home_page';
 
@@ -305,13 +300,6 @@ class AppRoutes {
       page: () => SignupQuestionTwoScreen(),
       bindings: [
         SignupQuestionTwoBinding(),
-      ],
-    ),
-    GetPage(
-      name: signupQuestionThreeScreen,
-      page: () => SignupQuestionThreeScreen(),
-      bindings: [
-        SignupQuestionThreeBinding(),
       ],
     ),
     GetPage(

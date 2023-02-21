@@ -101,7 +101,7 @@ class ChatDetailsFiveScreen extends GetWidget<ChatDetailsFiveController> {
                             "lbl_john_doe".tr,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.left,
-                            style: AppStyle.txtGeneralSansSemibold18Gray900,
+                            style: AppStyle.txtGeneralSansSemibold18,
                           ),
                           Padding(
                             padding: getPadding(

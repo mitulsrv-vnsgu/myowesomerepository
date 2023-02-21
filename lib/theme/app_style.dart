@@ -200,8 +200,17 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtGeneralSansSemibold18 = TextStyle(
+  static TextStyle txtGeneralSansSemibold18DeeppurpleA200 = TextStyle(
     color: ColorConstant.deepPurpleA200,
+    fontSize: getFontSize(
+      18,
+    ),
+    fontFamily: 'General Sans',
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle txtGeneralSansSemibold18 = TextStyle(
+    color: ColorConstant.gray900,
     fontSize: getFontSize(
       18,
     ),
@@ -281,15 +290,6 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtGeneralSansSemibold18Gray9001 = TextStyle(
-    color: ColorConstant.gray900,
-    fontSize: getFontSize(
-      18,
-    ),
-    fontFamily: 'General Sans',
-    fontWeight: FontWeight.w600,
-  );
-
   static TextStyle txtGeneralSansRegular12Gray500 = TextStyle(
     color: ColorConstant.gray500,
     fontSize: getFontSize(
@@ -299,7 +299,7 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle txtGeneralSansSemibold18Gray9002 = TextStyle(
+  static TextStyle txtGeneralSansSemibold18Gray9001 = TextStyle(
     color: ColorConstant.gray900,
     fontSize: getFontSize(
       18,
